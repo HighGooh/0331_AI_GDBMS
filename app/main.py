@@ -32,97 +32,118 @@ class GraphResponse(BaseModel):
 # LLM에 전달되는 템플릿: 노드와 관계 추출 규칙
 # ----------------------------------------
 UPDATED_TEMPLATE = """
-You are a top-tier algorithm designed for extracting information in structured formats to build a knowledge graph. Extract the entities (nodes) and specify their type from the following text, but **you MUST select nodes ONLY from the following predefined set** (see the provided NODES list below). Do not create any new nodes or use names that do not exactly match one in the NODES list.
+# Knowledge Graph Extraction Prompt
 
-Also extract the relationships between these nodes. Return the result as JSON using the following format:
+## Role
+You are a specialized Knowledge Graph Extraction Algorithm. Your goal is to parse raw text and convert it into a structured JSON format containing nodes and relationships based on a strict predefined schema.
 
+## Strict Constraint Rules
+1. **Input-Based Extraction**: Search for characters and Pokémon mentioned in the **#Input Value** (Text to Analyze). You must match these entities ONLY with the names provided in the `PREDEFINED NODES` list.
+2. **Atomic Node Mapping**: When adding an entity to the `nodes` array, you **MUST** use the exact `id`, `label`, and `properties` (including `name`) from the `PREDEFINED NODES` list as a complete set. 
+   - DO NOT modify the `id`.
+   - DO NOT change the `label`.
+   - DO NOT translate or alter the `name`.
+3. **Directional Logic (Ownership)**: 
+   - Valid: `(포켓몬) --[OWNED_BY]--> (인간)`
+   - Invalid: `(인간) --[OWNED_BY]--> (포켓몬)`
+4. **Output Format**: Return **ONLY** a valid JSON object. Do not include any conversational text, markdown code blocks (like ```json), or explanations.
+
+## Predefined Nodes (Reference List)
+[
+    {"id": "N0", "label": "인간", "properties": {"name": "Ash Ketchum"}},
+    {"id": "N1", "label": "인간", "properties": {"name": "Misty"}},
+    {"id": "N2", "label": "인간", "properties": {"name": "Brock"}},
+    {"id": "N3", "label": "인간", "properties": {"name": "Professor Oak"}},
+    {"id": "N4", "label": "인간", "properties": {"name": "Gary Oak"}},
+    {"id": "N5", "label": "인간", "properties": {"name": "Jessie"}},
+    {"id": "N6", "label": "인간", "properties": {"name": "James"}},
+    {"id": "N7", "label": "인간", "properties": {"name": "Officer Jenny"}},
+    {"id": "N8", "label": "인간", "properties": {"name": "Nurse Joy"}},
+    {"id": "N9", "label": "인간", "properties": {"name": "Lt. Surge"}},
+    {"id": "N10", "label": "인간", "properties": {"name": "Bill"}},
+    {"id": "N11", "label": "인간", "properties": {"name": "Sabrina"}},
+    {"id": "N12", "label": "인간", "properties": {"name": "Erika"}},
+    {"id": "N13", "label": "인간", "properties": {"name": "Koga"}},
+    {"id": "N14", "label": "인간", "properties": {"name": "Giovanni"}},
+    {"id": "N15", "label": "인간", "properties": {"name": "Blaine"}},
+    {"id": "N16", "label": "인간", "properties": {"name": "Delia Ketchum"}},
+    {"id": "N17", "label": "인간", "properties": {"name": "Bruno"}},
+    {"id": "N18", "label": "인간", "properties": {"name": "Richie"}},
+    {"id": "N19", "label": "인간", "properties": {"name": "Charles Goodshow"}},
+    {"id": "N20", "label": "인간", "properties": {"name": "Professor Ivy"}},
+    {"id": "N21", "label": "포켓몬", "properties": {"name": "Pikachu"}},
+    {"id": "N22", "label": "포켓몬", "properties": {"name": "Meowth"}},
+    {"id": "N23", "label": "포켓몬", "properties": {"name": "Spearow"}},
+    {"id": "N24", "label": "포켓몬", "properties": {"name": "Ho-Oh"}},
+    {"id": "N25", "label": "포켓몬", "properties": {"name": "Caterpie"}},
+    {"id": "N26", "label": "포켓몬", "properties": {"name": "Metapod"}},
+    {"id": "N27", "label": "포켓몬", "properties": {"name": "Butterfree"}},
+    {"id": "N28", "label": "포켓몬", "properties": {"name": "Pidgeotto"}},
+    {"id": "N29", "label": "포켓몬", "properties": {"name": "Ekans"}},
+    {"id": "N30", "label": "포켓몬", "properties": {"name": "Koffing"}},
+    {"id": "N31", "label": "포켓몬", "properties": {"name": "Raichu"}},
+    {"id": "N32", "label": "포켓몬", "properties": {"name": "Bulbasaur"}},
+    {"id": "N33", "label": "포켓몬", "properties": {"name": "Charmander"}},
+    {"id": "N34", "label": "포켓몬", "properties": {"name": "Squirtle"}},
+    {"id": "N35", "label": "포켓몬", "properties": {"name": "Dragonite"}},
+    {"id": "N36", "label": "포켓몬", "properties": {"name": "Staryu"}},
+    {"id": "N37", "label": "포켓몬", "properties": {"name": "Starmie"}},
+    {"id": "N38", "label": "포켓몬", "properties": {"name": "Onix"}},
+    {"id": "N39", "label": "포켓몬", "properties": {"name": "Geodude"}},
+    {"id": "N40", "label": "포켓몬", "properties": {"name": "Zubat"}},
+    {"id": "N41", "label": "포켓몬", "properties": {"name": "Abra"}},
+    {"id": "N42", "label": "포켓몬", "properties": {"name": "Kadabra"}},
+    {"id": "N43", "label": "포켓몬", "properties": {"name": "Haunter"}},
+    {"id": "N44", "label": "포켓몬", "properties": {"name": "Gastly"}},
+    {"id": "N45", "label": "포켓몬", "properties": {"name": "Gengar"}},
+    {"id": "N46", "label": "포켓몬", "properties": {"name": "Gloom"}},
+    {"id": "N47", "label": "포켓몬", "properties": {"name": "Primeape"}},
+    {"id": "N48", "label": "포켓몬", "properties": {"name": "Muk"}},
+    {"id": "N49", "label": "포켓몬", "properties": {"name": "Diglett"}},
+    {"id": "N50", "label": "포켓몬", "properties": {"name": "Dugtrio"}},
+    {"id": "N51", "label": "포켓몬", "properties": {"name": "Venomoth"}},
+    {"id": "N52", "label": "포켓몬", "properties": {"name": "Ponyta"}},
+    {"id": "N53", "label": "포켓몬", "properties": {"name": "Rapidash"}},
+    {"id": "N54", "label": "포켓몬", "properties": {"name": "Dratini"}},
+    {"id": "N55", "label": "포켓몬", "properties": {"name": "Dragonair"}},
+    {"id": "N56", "label": "포켓몬", "properties": {"name": "Tauros"}},
+    {"id": "N57", "label": "포켓몬", "properties": {"name": "Ditto"}},
+    {"id": "N58", "label": "포켓몬", "properties": {"name": "Eevee"}},
+    {"id": "N59", "label": "포켓몬", "properties": {"name": "Snorlax"}},
+    {"id": "N60", "label": "포켓몬", "properties": {"name": "Scyther"}},
+    {"id": "N61", "label": "포켓몬", "properties": {"name": "Electabuzz"}},
+    {"id": "N62", "label": "포켓몬", "properties": {"name": "Magmar"}},
+    {"id": "N63", "label": "포켓몬", "properties": {"name": "Jigglypuff"}},
+    {"id": "N64", "label": "포켓몬", "properties": {"name": "Aerodactyl"}},
+    {"id": "N65", "label": "포켓몬", "properties": {"name": "Togepi"}},
+    {"id": "N66", "label": "포켓몬", "properties": {"name": "Mewtwo"}},
+    {"id": "N67", "label": "포켓몬", "properties": {"name": "Mr. Mime"}},
+    {"id": "N68", "label": "포켓몬", "properties": {"name": "Lapras"}},
+    {"id": "N69", "label": "포켓몬", "properties": {"name": "Sparky"}},
+    {"id": "N70", "label": "포켓몬", "properties": {"name": "Beedrill"}}
+]
+
+## JSON Output Structure (Template)
 {
   "nodes": [
-    {"id": "N0", "label": "인간", "properties": {"name": "Ash Ketchum"}}
+    {"id": "N0", "label": "인간", "properties": {"name": "Ash Ketchum"}},
+    {"id": "N21", "label": "포켓몬", "properties": {"name": "Pikachu"}}
   ],
   "relationships": [
-    {"type": "FIGHTS", "start_node_id": "N0", "end_node_id": "N13", "properties": {"outcome": "victory"}}
+    {
+      "type": "OWNED_BY", 
+      "start_node_id": "N21", 
+      "end_node_id": "N0", 
+      "properties": {"context": "Starter"}
+    }
   ]
 }
 
-Additional rules:
-- Use only nodes from the NODES list. Do not invent or substitute nodes.
-- Skip any relationship if one of its entities is not in NODES.
-- Only output valid relationships where both endpoints exist in NODES and the direction matches their types.
+## #Input Value (Text to Analyze)
+[PASTE YOUR EPISODE SUMMARY TEXT HERE]
 
-NODES =
-[
-  {"id": "N0", "label": "인간", "properties": {"name": "Ash Ketchum"}},
-  {"id": "N1", "label": "인간", "properties": {"name": "Misty"}},
-  {"id": "N2", "label": "인간", "properties": {"name": "Brock"}},
-  {"id": "N3", "label": "인간", "properties": {"name": "Professor Oak"}},
-  {"id": "N4", "label": "인간", "properties": {"name": "Gary Oak"}},
-  {"id": "N5", "label": "인간", "properties": {"name": "Jessie"}},
-  {"id": "N6", "label": "인간", "properties": {"name": "James"}},
-  {"id": "N7", "label": "인간", "properties": {"name": "Officer Jenny"}},
-  {"id": "N8", "label": "인간", "properties": {"name": "Nurse Joy"}},
-  {"id": "N9", "label": "인간", "properties": {"name": "Lt. Surge"}},
-  {"id": "N10", "label": "인간", "properties": {"name": "Bill"}},
-  {"id": "N11", "label": "인간", "properties": {"name": "Sabrina"}},
-  {"id": "N12", "label": "인간", "properties": {"name": "Erika"}},
-  {"id": "N13", "label": "인간", "properties": {"name": "Koga"}},
-  {"id": "N14", "label": "인간", "properties": {"name": "Giovanni"}},
-  {"id": "N15", "label": "인간", "properties": {"name": "Blaine"}},
-  {"id": "N16", "label": "인간", "properties": {"name": "Delia Ketchum"}},
-  {"id": "N17", "label": "인간", "properties": {"name": "Bruno"}},
-  {"id": "N18", "label": "인간", "properties": {"name": "Richie"}},
-  {"id": "N19", "label": "인간", "properties": {"name": "Charles Goodshow"}},
-  {"id": "N20", "label": "인간", "properties": {"name": "Professor Ivy"}},
-  {"id": "N21", "label": "포켓몬", "properties": {"name": "Pikachu"}},
-  {"id": "N22", "label": "포켓몬", "properties": {"name": "Meowth"}},
-  {"id": "N23", "label": "포켓몬", "properties": {"name": "Spearow"}},
-  {"id": "N24", "label": "포켓몬", "properties": {"name": "Ho-Oh"}},
-  {"id": "N25", "label": "포켓몬", "properties": {"name": "Caterpie"}},
-  {"id": "N26", "label": "포켓몬", "properties": {"name": "Metapod"}},
-  {"id": "N27", "label": "포켓몬", "properties": {"name": "Butterfree"}},
-  {"id": "N28", "label": "포켓몬", "properties": {"name": "Pidgeotto"}},
-  {"id": "N29", "label": "포켓몬", "properties": {"name": "Ekans"}},
-  {"id": "N30", "label": "포켓몬", "properties": {"name": "Koffing"}},
-  {"id": "N31", "label": "포켓몬", "properties": {"name": "Raichu"}},
-  {"id": "N32", "label": "포켓몬", "properties": {"name": "Bulbasaur"}},
-  {"id": "N33", "label": "포켓몬", "properties": {"name": "Charmander"}},
-  {"id": "N34", "label": "포켓몬", "properties": {"name": "Squirtle"}},
-  {"id": "N35", "label": "포켓몬", "properties": {"name": "Dragonite"}},
-  {"id": "N36", "label": "포켓몬", "properties": {"name": "Staryu"}},
-  {"id": "N37", "label": "포켓몬", "properties": {"name": "Starmie"}},
-  {"id": "N38", "label": "포켓몬", "properties": {"name": "Onix"}},
-  {"id": "N39", "label": "포켓몬", "properties": {"name": "Geodude"}},
-  {"id": "N40", "label": "포켓몬", "properties": {"name": "Zubat"}},
-  {"id": "N41", "label": "포켓몬", "properties": {"name": "Abra"}},
-  {"id": "N42", "label": "포켓몬", "properties": {"name": "Kadabra"}},
-  {"id": "N43", "label": "포켓몬", "properties": {"name": "Haunter"}},
-  {"id": "N44", "label": "포켓몬", "properties": {"name": "Gastly"}},
-  {"id": "N45", "label": "포켓몬", "properties": {"name": "Gengar"}},
-  {"id": "N46", "label": "포켓몬", "properties": {"name": "Gloom"}},
-  {"id": "N47", "label": "포켓몬", "properties": {"name": "Primeape"}},
-  {"id": "N48", "label": "포켓몬", "properties": {"name": "Muk"}},
-  {"id": "N49", "label": "포켓몬", "properties": {"name": "Diglett"}},
-  {"id": "N50", "label": "포켓몬", "properties": {"name": "Dugtrio"}},
-  {"id": "N51", "label": "포켓몬", "properties": {"name": "Venomoth"}},
-  {"id": "N52", "label": "포켓몬", "properties": {"name": "Ponyta"}},
-  {"id": "N53", "label": "포켓몬", "properties": {"name": "Rapidash"}},
-  {"id": "N54", "label": "포켓몬", "properties": {"name": "Dratini"}},
-  {"id": "N55", "label": "포켓몬", "properties": {"name": "Dragonair"}},
-  {"id": "N56", "label": "포켓몬", "properties": {"name": "Tauros"}},
-  {"id": "N57", "label": "포켓몬", "properties": {"name": "Ditto"}},
-  {"id": "N58", "label": "포켓몬", "properties": {"name": "Eevee"}},
-  {"id": "N59", "label": "포켓몬", "properties": {"name": "Snorlax"}},
-  {"id": "N60", "label": "포켓몬", "properties": {"name": "Scyther"}},
-  {"id": "N61", "label": "포켓몬", "properties": {"name": "Electabuzz"}},
-  {"id": "N62", "label": "포켓몬", "properties": {"name": "Magmar"}},
-  {"id": "N63", "label": "포켓몬", "properties": {"name": "Jigglypuff"}},
-  {"id": "N64", "label": "포켓몬", "properties": {"name": "Aerodactyl"}},
-  {"id": "N65", "label": "포켓몬", "properties": {"name": "Togepi"}},
-  {"id": "N66", "label": "포켓몬", "properties": {"name": "Mewtwo"}},
-  {"id": "N67", "label": "포켓몬", "properties": {"name": "Mr. Mime"}},
-  {"id": "N68", "label": "포켓몬", "properties": {"name": "Lapras"}},
-  {"id": "N69", "label": "포켓몬", "properties": {"name": "Sparky"}}
-]
+## Result
+
 """
 
 # 영어 이름 → 한글 이름 변환 매핑 테이블
@@ -196,13 +217,15 @@ KOREAN_NODE_MAP = {
     "Richie": "훈이",
     "Sparky": "레온",
     "Charles Goodshow": "리그 의장",
-    "Professor Ivy": "미지박사"
+    "Professor Ivy": "미지박사",
+    "Beedrill": "독침봉",
+    "Melanie":"멜라니"
 }
 
 # ---------------------------
 # Ollama LLM 호출 함수
 # ---------------------------
-def llm_call_structured(prompt: str, model: str = "gemma3:4b") -> GraphResponse:
+def llm_call_structured(prompt: str, model: str = "qwen2.5-coder:7b") -> GraphResponse:
 
   final_prompt = prompt + """
   Return ONLY valid JSON. Do NOT include explanations or commentary.
@@ -270,7 +293,7 @@ def process_data(episodes: List[dict]) -> GraphResponse:
     print(f"에피소드 처리 중: 시즌 {episode['season']}, 에피소드 {episode['episode_in_season']}")
     
     try:
-      prompt = UPDATED_TEMPLATE + f"\n 입력값\n {episode['synopsis']}"  # LLM 입력 프롬프트
+      prompt = UPDATED_TEMPLATE + f"\n #Input value\n {episode['synopsis']}"  # LLM 입력 프롬프트
       graph_response = llm_call_structured(prompt)  # LLM 호출
       episode_number = f"S{episode['season']}E{episode['episode_in_season']:02d}"  # 에피소드 번호 문자열
 
@@ -312,17 +335,21 @@ def fetch_episode(link: str) -> List[dict]:
   rows = table.select("tr.vevent.module-episode-list-row")  # 각 에피소드 row
 
   for i, row in enumerate(rows, start=1):  # 에피소드 번호 생성
+    
     synopsis = None
     synopsis_row = row.find_next_sibling("tr", class_="expand-child")  # 시놉시스 row 찾기
     if synopsis_row:
       synopsis_cell = synopsis_row.select_one("td.description div.shortSummaryText")
       synopsis = synopsis_cell.get_text(strip=True) if synopsis_cell else None
-
+    
     episodes.append({
       "season": season,
       "episode_in_season": i,
       "synopsis": synopsis,
     })
+
+    # if i == 10:
+    #   break
   
   return episodes
 
@@ -350,7 +377,6 @@ def main():
   try:
     episode_links = [
       "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Indigo_League"
-
     ]
     all_episodes = []
     for link in episode_links:

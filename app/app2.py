@@ -9,7 +9,7 @@ from settings import settings
 # 🎯 Ollama Client 설정
 # -------------------------
 client = ollama.Client(host=settings.ollama_host) # Ollama 서버에 접속하기 위한 클라이언트 객체 생성, 호스트와 포트 지정
-modelName = "gemma3:4b" # Ollama 모델 이름 지정 (사용할 LLM 모델)
+modelName = "qwen2.5-coder:7b" # Ollama 모델 이름 지정 (사용할 LLM 모델)
 
 # -------------------------
 # 🎯 Neo4j 연결 설정
@@ -60,7 +60,7 @@ llm = ConnLLM(model_name=modelName)
 # -------------------------
 examples = [
   # 예시: 사용자 질문 -> Cypher 쿼리 매핑
-  "USER INPUT: '토미오카 기유는 시즌 1에서 어떤 역할을 했는지 에피소드별로 알려줘.' QUERY: MATCH (n {name: '토미오카 기유'})-[r]-(m) RETURN n, r, m, properties(r) AS rel_props ORDER BY r.episode_number"
+  "USER INPUT: '지우의 포켓몬들은 어떤건지 알려줘.' QUERY: MATCH (n {name: '지우'})-[r]-(m) RETURN n, r, m, properties(r) AS rel_props ORDER BY r.episode_number"
 ]
 
 # Text2CypherRetriever 생성
@@ -135,7 +135,7 @@ def graphrag_pipeline(user_question):
 if __name__ == "__main__":
   # 테스트할 질문 리스트
   queries = [
-    "카마도 탄지로는 시즌 1에서 에피소드별로 어떤 활약을 했어?",
+    "지우는 어떤 여행을했어?",
   ]
   
   # 질문 리스트를 순회하며 파이프라인 실행

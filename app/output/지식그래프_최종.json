@@ -4,1516 +4,2540 @@
       "id": "N0",
       "label": "인간",
       "properties": {
-        "name": "카마도 탄지로"
+        "name": "지우"
+      }
+    },
+    {
+      "id": "N21",
+      "label": "포켓몬",
+      "properties": {
+        "name": "피카츄"
+      }
+    },
+    {
+      "id": "N32",
+      "label": "포켓몬",
+      "properties": {
+        "name": "깨비참"
+      }
+    },
+    {
+      "id": "N68",
+      "label": "포켓몬",
+      "properties": {
+        "name": "칠색조"
       }
     },
     {
       "id": "N1",
       "label": "인간",
       "properties": {
-        "name": "카마도 네즈코"
-      }
-    },
-    {
-      "id": "N2",
-      "label": "인간",
-      "properties": {
-        "name": "토미오카 기유"
-      }
-    },
-    {
-      "id": "N3",
-      "label": "인간",
-      "properties": {
-        "name": "우로코다키 사콘지"
-      }
-    },
-    {
-      "id": "N13",
-      "label": "도깨비",
-      "properties": {
-        "name": "키부츠지 무잔"
-      }
-    },
-    {
-      "id": "N4",
-      "label": "인간",
-      "properties": {
-        "name": "사비토"
-      }
-    },
-    {
-      "id": "N5",
-      "label": "인간",
-      "properties": {
-        "name": "마코모"
-      }
-    },
-    {
-      "id": "N6",
-      "label": "인간",
-      "properties": {
-        "name": "아가츠마 젠이츠"
+        "name": "이슬"
       }
     },
     {
       "id": "N7",
       "label": "인간",
       "properties": {
-        "name": "하시비라 이노스케"
-      }
-    },
-    {
-      "id": "N10",
-      "label": "인간",
-      "properties": {
-        "name": "우부야시키 카가야"
-      }
-    },
-    {
-      "id": "N14",
-      "label": "도깨비",
-      "properties": {
-        "name": "스사마루"
+        "name": "여경"
       }
     },
     {
       "id": "N8",
       "label": "인간",
       "properties": {
-        "name": "츠유리 카나오"
+        "name": "간호순"
       }
     },
     {
-      "id": "N15",
-      "label": "도깨비",
+      "id": "N25",
+      "label": "포켓몬",
       "properties": {
-        "name": "야하바"
+        "name": "피카츄"
       }
     },
     {
-      "id": "N9",
+      "id": "N25",
+      "label": "포켓몬",
+      "properties": {
+        "name": "캐터피"
+      }
+    },
+    {
+      "id": "N27",
+      "label": "포켓몬",
+      "properties": {
+        "name": "버터플"
+      }
+    },
+    {
+      "id": "N21",
+      "label": "포켓몬",
+      "properties": {
+        "name": "단데기"
+      }
+    },
+    {
+      "id": "N60",
+      "label": "포켓몬",
+      "properties": {
+        "name": "독침봉"
+      }
+    },
+    {
+      "id": "N2",
       "label": "인간",
       "properties": {
-        "name": "렌고쿠 쿄쥬로"
+        "name": "웅"
       }
     },
     {
-      "id": "N11",
-      "label": "인간",
+      "id": "N71",
+      "label": "포켓몬",
       "properties": {
-        "name": "코쵸우 시노부"
+        "name": "피카츄"
       }
     },
     {
-      "id": "N12",
-      "label": "인간",
+      "id": "N32",
+      "label": "포켓몬",
       "properties": {
-        "name": "시나즈가와 사네미"
+        "name": "피카츄"
       }
     },
     {
       "id": "N1",
       "label": "인간",
       "properties": {
-        "name": "Sumi"
+        "name": "A.J."
       }
     },
     {
-      "id": "N1",
+      "id": "N3",
       "label": "인간",
       "properties": {
-        "name": "Kiyo"
+        "name": "오박사"
       }
     },
     {
-      "id": "N1",
-      "label": "인간",
+      "id": "N32",
+      "label": "포켓몬",
       "properties": {
-        "name": "Naho"
+        "name": "Oddish"
       }
     },
     {
-      "id": "N18",
-      "label": "도깨비",
+      "id": "N33",
+      "label": "포켓몬",
       "properties": {
-        "name": "엔무"
+        "name": "이상해씨"
       }
     },
     {
-      "id": "N1",
-      "label": "인간",
+      "id": "N32",
+      "label": "포켓몬",
       "properties": {
-        "name": "아가츠마 젠이츠"
+        "name": "파이리"
+      }
+    },
+    {
+      "id": "N34",
+      "label": "포켓몬",
+      "properties": {
+        "name": "꼬부기"
       }
     },
     {
       "id": "N10",
       "label": "인간",
       "properties": {
-        "name": "렌고쿠 쿄쥬로"
+        "name": "이수재"
+      }
+    },
+    {
+      "id": "N9",
+      "label": "인간",
+      "properties": {
+        "name": "마티스"
+      }
+    },
+    {
+      "id": "N31",
+      "label": "포켓몬",
+      "properties": {
+        "name": "라이츄"
+      }
+    },
+    {
+      "id": "N21",
+      "label": "포켓몬",
+      "properties": {
+        "name": "버터플"
+      }
+    },
+    {
+      "id": "N39",
+      "label": "포켓몬",
+      "properties": {
+        "name": "디그다"
+      }
+    },
+    {
+      "id": "N40",
+      "label": "포켓몬",
+      "properties": {
+        "name": "닥트리오"
+      }
+    },
+    {
+      "id": "N67",
+      "label": "인간",
+      "properties": {
+        "name": "로이"
+      }
+    },
+    {
+      "id": "N58",
+      "label": "포켓몬",
+      "properties": {
+        "name": "이브이"
+      }
+    },
+    {
+      "id": "N42",
+      "label": "포켓몬",
+      "properties": {
+        "name": "윤겔라"
+      }
+    },
+    {
+      "id": "N32",
+      "label": "포켓몬",
+      "properties": {
+        "name": "이상해씨"
+      }
+    },
+    {
+      "id": "N17",
+      "label": "인간",
+      "properties": {
+        "name": "시바"
+      }
+    },
+    {
+      "id": "N45",
+      "label": "포켓몬",
+      "properties": {
+        "name": "팬텀"
+      }
+    },
+    {
+      "id": "N4",
+      "label": "인간",
+      "properties": {
+        "name": "바람"
+      }
+    },
+    {
+      "id": "N5",
+      "label": "인간",
+      "properties": {
+        "name": "로사"
+      }
+    },
+    {
+      "id": "N6",
+      "label": "인간",
+      "properties": {
+        "name": "로이"
+      }
+    },
+    {
+      "id": "N11",
+      "label": "인간",
+      "properties": {
+        "name": "초련"
+      }
+    },
+    {
+      "id": "N12",
+      "label": "인간",
+      "properties": {
+        "name": "민화"
+      }
+    },
+    {
+      "id": "N13",
+      "label": "인간",
+      "properties": {
+        "name": "독수"
+      }
+    },
+    {
+      "id": "N14",
+      "label": "인간",
+      "properties": {
+        "name": "비주기"
+      }
+    },
+    {
+      "id": "N15",
+      "label": "인간",
+      "properties": {
+        "name": "강연"
+      }
+    },
+    {
+      "id": "N16",
+      "label": "인간",
+      "properties": {
+        "name": "영자"
+      }
+    },
+    {
+      "id": "N18",
+      "label": "인간",
+      "properties": {
+        "name": "훈이"
+      }
+    },
+    {
+      "id": "N19",
+      "label": "인간",
+      "properties": {
+        "name": "리그 의장"
+      }
+    },
+    {
+      "id": "N20",
+      "label": "인간",
+      "properties": {
+        "name": "미지박사"
+      }
+    },
+    {
+      "id": "N22",
+      "label": "포켓몬",
+      "properties": {
+        "name": "나옹"
+      }
+    },
+    {
+      "id": "N23",
+      "label": "포켓몬",
+      "properties": {
+        "name": "깨비참"
+      }
+    },
+    {
+      "id": "N24",
+      "label": "포켓몬",
+      "properties": {
+        "name": "칠색조"
+      }
+    },
+    {
+      "id": "N26",
+      "label": "포켓몬",
+      "properties": {
+        "name": "단데기"
+      }
+    },
+    {
+      "id": "N28",
+      "label": "포켓몬",
+      "properties": {
+        "name": "피죤"
+      }
+    },
+    {
+      "id": "N29",
+      "label": "포켓몬",
+      "properties": {
+        "name": "아보"
+      }
+    },
+    {
+      "id": "N30",
+      "label": "포켓몬",
+      "properties": {
+        "name": "또가스"
+      }
+    },
+    {
+      "id": "N59",
+      "label": "포켓몬",
+      "properties": {
+        "name": "잠만보"
+      }
+    },
+    {
+      "id": "N71",
+      "label": "포켓몬",
+      "properties": {
+        "name": "Tentacool"
+      }
+    },
+    {
+      "id": "N72",
+      "label": "포켓몬",
+      "properties": {
+        "name": "Tentacruel"
+      }
+    },
+    {
+      "id": "N81",
+      "label": "포켓몬",
+      "properties": {
+        "name": "Horsea"
+      }
+    },
+    {
+      "id": "N3",
+      "label": "인간",
+      "properties": {
+        "name": "로이"
+      }
+    },
+    {
+      "id": "N64",
+      "label": "포켓몬",
+      "properties": {
+        "name": "고스"
+      }
+    },
+    {
+      "id": "N41",
+      "label": "포켓몬",
+      "properties": {
+        "name": "캐이시"
+      }
+    },
+    {
+      "id": "N30",
+      "label": "포켓몬",
+      "properties": {
+        "name": "고스"
+      }
+    },
+    {
+      "id": "N43",
+      "label": "포켓몬",
+      "properties": {
+        "name": "고우스트"
+      }
+    },
+    {
+      "id": "N12",
+      "label": "인간",
+      "properties": {
+        "name": "초련"
+      }
+    },
+    {
+      "id": "N36",
+      "label": "포켓몬",
+      "properties": {
+        "name": "별가사리"
+      }
+    },
+    {
+      "id": "N47",
+      "label": "포켓몬",
+      "properties": {
+        "name": "성원숭"
+      }
+    },
+    {
+      "id": "N17",
+      "label": "인간",
+      "properties": {
+        "name": "민화"
+      }
+    },
+    {
+      "id": "N25",
+      "label": "포켓몬",
+      "properties": {
+        "name": "Hypno"
+      }
+    },
+    {
+      "id": "N26",
+      "label": "포켓몬",
+      "properties": {
+        "name": "Drowze"
+      }
+    },
+    {
+      "id": "N34",
+      "label": "포켓몬",
+      "properties": {
+        "name": "Psyduck"
+      }
+    },
+    {
+      "id": "N22",
+      "label": "포켓몬",
+      "properties": {
+        "name": "Vulpix"
+      }
+    },
+    {
+      "id": "N18",
+      "label": "인간",
+      "properties": {
+        "name": "Anthony(アノキ,Anoki)"
+      }
+    },
+    {
+      "id": "N30",
+      "label": "포켓몬",
+      "properties": {
+        "name": "질뻐기"
+      }
+    },
+    {
+      "id": "N30",
+      "label": "포켓몬",
+      "properties": {
+        "name": "디그다"
+      }
+    },
+    {
+      "id": "N31",
+      "label": "포켓몬",
+      "properties": {
+        "name": "닥트리오"
+      }
+    },
+    {
+      "id": "N32",
+      "label": "포켓몬",
+      "properties": {
+        "name": "또가스"
+      }
+    },
+    {
+      "id": "N52",
+      "label": "포켓몬",
+      "properties": {
+        "name": "포니타"
+      }
+    },
+    {
+      "id": "N53",
+      "label": "포켓몬",
+      "properties": {
+        "name": "날쌩마"
+      }
+    },
+    {
+      "id": "N71",
+      "label": "인간",
+      "properties": {
+        "name": "Dario"
+      }
+    },
+    {
+      "id": "N86",
+      "label": "포켓몬",
+      "properties": {
+        "name": "Kangaskhan"
+      }
+    },
+    {
+      "id": "N24",
+      "label": "포켓몬",
+      "properties": {
+        "name": "미뇽"
+      }
+    },
+    {
+      "id": "N54",
+      "label": "포켓몬",
+      "properties": {
+        "name": "신용"
+      }
+    },
+    {
+      "id": "N57",
+      "label": "포켓몬",
+      "properties": {
+        "name": "메타몽"
+      }
+    },
+    {
+      "id": "N13",
+      "label": "인간",
+      "properties": {
+        "name": "오박사"
+      }
+    },
+    {
+      "id": "N68",
+      "label": "포켓몬",
+      "properties": {
+        "name": "이브이"
+      }
+    },
+    {
+      "id": "N39",
+      "label": "포켓몬",
+      "properties": {
+        "name": "잠만보"
+      }
+    },
+    {
+      "id": "N34",
+      "label": "포켓몬",
+      "properties": {
+        "name": "파이리"
+      }
+    },
+    {
+      "id": "N62",
+      "label": "포켓몬",
+      "properties": {
+        "name": "마그마"
+      }
+    },
+    {
+      "id": "N19",
+      "label": "인간",
+      "properties": {
+        "name": "Cassandra(キヨミ,Kiyomi)"
+      }
+    },
+    {
+      "id": "N33",
+      "label": "포켓몬",
+      "properties": {
+        "name": "Charmeleon"
+      }
+    },
+    {
+      "id": "N37",
+      "label": "포켓몬",
+      "properties": {
+        "name": "아쿠스타"
+      }
+    },
+    {
+      "id": "N64",
+      "label": "포켓몬",
+      "properties": {
+        "name": "프테라"
+      }
+    },
+    {
+      "id": "N68",
+      "label": "포켓몬",
+      "properties": {
+        "name": "라프라스"
+      }
+    },
+    {
+      "id": "N70",
+      "label": "포켓몬",
+      "properties": {
+        "name": "독침봉"
+      }
+    },
+    {
+      "id": "N65",
+      "label": "포켓몬",
+      "properties": {
+        "name": "토게피"
+      }
+    },
+    {
+      "id": "N22",
+      "label": "포켓몬",
+      "properties": {
+        "name": "이상해씨"
+      }
+    },
+    {
+      "id": "N34",
+      "label": "포켓몬",
+      "properties": {
+        "name": "Ivysaur"
+      }
+    },
+    {
+      "id": "N71",
+      "label": "포켓몬",
+      "properties": {
+        "name": "Venusaur"
+      }
+    },
+    {
+      "id": "N24",
+      "label": "포켓몬",
+      "properties": {
+        "name": "Psyduck"
+      }
+    },
+    {
+      "id": "N67",
+      "label": "포켓몬",
+      "properties": {
+        "name": "피카츄"
+      }
+    },
+    {
+      "id": "N80",
+      "label": "인간",
+      "properties": {
+        "name": "Todd Snap"
+      }
+    },
+    {
+      "id": "N32",
+      "label": "포켓몬",
+      "properties": {
+        "name": "Psyduck"
+      }
+    },
+    {
+      "id": "N35",
+      "label": "포켓몬",
+      "properties": {
+        "name": "꼬부기"
+      }
+    },
+    {
+      "id": "N17",
+      "label": "인간",
+      "properties": {
+        "name": "강연"
+      }
+    },
+    {
+      "id": "N24",
+      "label": "포켓몬",
+      "properties": {
+        "name": "마그마"
+      }
+    },
+    {
+      "id": "N33",
+      "label": "포켓몬",
+      "properties": {
+        "name": "Charizard"
+      }
+    },
+    {
+      "id": "N21",
+      "label": "포켓몬",
+      "properties": {
+        "name": "Wartortle"
+      }
+    },
+    {
+      "id": "N22",
+      "label": "포켓몬",
+      "properties": {
+        "name": "Blastoise"
+      }
+    },
+    {
+      "id": "N63",
+      "label": "포켓몬",
+      "properties": {
+        "name": "푸린"
+      }
+    },
+    {
+      "id": "N36",
+      "label": "포켓몬",
+      "properties": {
+        "name": "아쿠스타"
+      }
+    },
+    {
+      "id": "N3",
+      "label": "인간",
+      "properties": {
+        "name": "Mr. Oswald"
+      }
+    },
+    {
+      "id": "N71",
+      "label": "포켓몬",
+      "properties": {
+        "name": "Clefairy"
+      }
+    },
+    {
+      "id": "N2",
+      "label": "인간",
+      "properties": {
+        "name": "바람"
+      }
+    },
+    {
+      "id": "N58",
+      "label": "포켓몬",
+      "properties": {
+        "name": "뮤츠"
+      }
+    },
+    {
+      "id": "N39",
+      "label": "포켓몬",
+      "properties": {
+        "name": "롱스톤"
+      }
+    },
+    {
+      "id": "N67",
+      "label": "포켓몬",
+      "properties": {
+        "name": "뮤츠"
+      }
+    },
+    {
+      "id": "N71",
+      "label": "포켓몬",
+      "properties": {
+        "name": "Slowpoke"
+      }
+    },
+    {
+      "id": "N72",
+      "label": "포켓몬",
+      "properties": {
+        "name": "Shellder"
+      }
+    },
+    {
+      "id": "N73",
+      "label": "포켓몬",
+      "properties": {
+        "name": "Psyduck"
+      }
+    },
+    {
+      "id": "N38",
+      "label": "포켓몬",
+      "properties": {
+        "name": "롱스톤"
+      }
+    },
+    {
+      "id": "N65",
+      "label": "포켓몬",
+      "properties": {
+        "name": "팬텀"
+      }
+    },
+    {
+      "id": "N60",
+      "label": "포켓몬",
+      "properties": {
+        "name": "Saizō"
+      }
+    },
+    {
+      "id": "N21",
+      "label": "포켓몬",
+      "properties": {
+        "name": "Moltres"
+      }
+    },
+    {
+      "id": "N21",
+      "label": "포켓몬",
+      "properties": {
+        "name": "Krabby"
+      }
+    },
+    {
+      "id": "N33",
+      "label": "포켓몬",
+      "properties": {
+        "name": "꼬부기"
+      }
+    },
+    {
+      "id": "N27",
+      "label": "포켓몬",
+      "properties": {
+        "name": "피카츄"
+      }
+    },
+    {
+      "id": "N40",
+      "label": "포켓몬",
+      "properties": {
+        "name": "Nidorino"
+      }
+    },
+    {
+      "id": "N59",
+      "label": "인간",
+      "properties": {
+        "name": "Pete Pebbleman"
+      }
+    },
+    {
+      "id": "N15",
+      "label": "인간",
+      "properties": {
+        "name": "시바"
+      }
+    },
+    {
+      "id": "N68",
+      "label": "포켓몬",
+      "properties": {
+        "name": "독침봉"
+      }
+    },
+    {
+      "id": "N70",
+      "label": "포켓몬",
+      "properties": {
+        "name": "스라크"
+      }
+    },
+    {
+      "id": "N48",
+      "label": "포켓몬",
+      "properties": {
+        "name": "질뻐기"
+      }
+    },
+    {
+      "id": "N37",
+      "label": "포켓몬",
+      "properties": {
+        "name": "별가사리"
+      }
+    },
+    {
+      "id": "N18",
+      "label": "인간",
+      "properties": {
+        "name": "Ritchie"
+      }
+    },
+    {
+      "id": "N17",
+      "label": "인간",
+      "properties": {
+        "name": "Ritchie"
+      }
+    },
+    {
+      "id": "N23",
+      "label": "포켓몬",
+      "properties": {
+        "name": "Charizard"
       }
     }
   ],
   "relationships": [
     {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
-      "end_node_id": "N13",
+      "type": "OWNED_BY",
+      "start_node_id": "N21",
+      "end_node_id": "N0",
       "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E01"
+        "context": "Starter",
+        "episode_number": "SSeason 1E01"
       }
     },
     {
-      "type": "LIVES_WITH",
+      "type": "OBSERVED_BY",
+      "start_node_id": "N68",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Encounter",
+        "episode_number": "SSeason 1E01"
+      }
+    },
+    {
+      "type": "BORROWED_BY",
       "start_node_id": "N0",
       "end_node_id": "N1",
       "properties": {
-        "episode_number": "S1E01"
+        "context": "Escape",
+        "episode_number": "SSeason 1E01"
       }
     },
     {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
-      "end_node_id": "N13",
+      "type": "OWNED_BY",
+      "start_node_id": "N25",
+      "end_node_id": "N0",
       "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E02"
+        "context": "Starter",
+        "episode_number": "SSeason 1E02"
       }
     },
     {
-      "type": "LEARNS_FROM",
+      "type": "OWNED_BY",
+      "start_node_id": "N21",
+      "end_node_id": "N8",
+      "properties": {
+        "context": "Treatment",
+        "episode_number": "SSeason 1E02"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N25",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E03"
+      }
+    },
+    {
+      "type": "OWNS",
+      "start_node_id": "N0",
+      "end_node_id": "N25",
+      "properties": {
+        "episode_number": "SSeason 1E03"
+      }
+    },
+    {
+      "type": "EATS",
+      "start_node_id": "N1",
+      "end_node_id": "N25",
+      "properties": {
+        "context": "Bug-type Pokémon",
+        "episode_number": "SSeason 1E03"
+      }
+    },
+    {
+      "type": "DREAMS_OF_EVOLVING",
+      "start_node_id": "N25",
+      "end_node_id": "N27",
+      "properties": {
+        "episode_number": "SSeason 1E03"
+      }
+    },
+    {
+      "type": "OWNS",
+      "start_node_id": "N0",
+      "end_node_id": "N27",
+      "properties": {
+        "episode_number": "SSeason 1E03"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N21",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Metapod",
+        "episode_number": "SSeason 1E04"
+      }
+    },
+    {
+      "type": "ATTACKED_BY",
+      "start_node_id": "N60",
+      "end_node_id": "N21",
+      "properties": {
+        "episode_number": "SSeason 1E04"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N71",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E05"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N21",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E06"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N0",
+      "end_node_id": "N21",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E07"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N0",
+      "end_node_id": "N32",
+      "properties": {
+        "context": "Companion",
+        "episode_number": "SSeason 1E07"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "context": "Opponent",
+        "episode_number": "SSeason 1E08"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "context": "Partnership",
+        "episode_number": "SSeason 1E09"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N0",
+      "end_node_id": "N2",
+      "properties": {
+        "context": "Partnership",
+        "episode_number": "SSeason 1E09"
+      }
+    },
+    {
+      "type": "OWNED_BY",
       "start_node_id": "N0",
       "end_node_id": "N3",
       "properties": {
-        "episode_number": "S1E02"
+        "context": "Supervision",
+        "episode_number": "SSeason 1E09"
       }
     },
     {
-      "type": "REQUESTS",
+      "type": "OWNED_BY",
+      "start_node_id": "N32",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Saved by Bulbasaur",
+        "episode_number": "SSeason 1E10"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N33",
+      "end_node_id": "N3",
+      "properties": {
+        "context": "Owner is Melanie (ミドリ, Midori)",
+        "episode_number": "SSeason 1E10"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N32",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Ash",
+        "episode_number": "SSeason 1E11"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N21",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E11"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N21",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E12"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N34",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Squirtle Squad",
+        "episode_number": "SSeason 1E12"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N0",
+      "end_node_id": "N10",
+      "properties": {
+        "context": "Adventure",
+        "episode_number": "SSeason 1E13"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N0",
+      "end_node_id": "N31",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E14"
+      }
+    },
+    {
+      "type": "BATTLE_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N9",
+      "properties": {
+        "context": "Vermilion City Gym",
+        "episode_number": "SSeason 1E14"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N21",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Trade",
+        "episode_number": "SSeason 1E15"
+      }
+    },
+    {
+      "type": "LOST",
+      "start_node_id": "N21",
+      "end_node_id": "N39",
+      "properties": {
+        "context": "St. Anne Storm",
+        "episode_number": "SSeason 1E15"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N21",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E16"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N21",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E17"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N34",
+      "end_node_id": "N16",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E17"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N33",
+      "end_node_id": "N2",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E17"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N32",
+      "end_node_id": "N1",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E17"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N22",
+      "end_node_id": "N5",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E17"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N29",
+      "end_node_id": "N7",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E17"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N30",
+      "end_node_id": "N6",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E17"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N21",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E18"
+      }
+    },
+    {
+      "type": "COMPETES_IN",
+      "start_node_id": "N1",
+      "end_node_id": "N3",
+      "properties": {
+        "context": "Beauty Contest",
+        "episode_number": "SSeason 1E18"
+      }
+    },
+    {
+      "type": "COMPETES_AGAINST",
+      "start_node_id": "N5",
+      "end_node_id": "N6",
+      "properties": {
+        "context": "Beauty Contest",
+        "episode_number": "SSeason 1E18"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N0",
+      "end_node_id": "N71",
+      "properties": {
+        "context": "Attacker",
+        "episode_number": "SSeason 1E19"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N0",
+      "end_node_id": "N72",
+      "properties": {
+        "context": "Attacker",
+        "episode_number": "SSeason 1E19"
+      }
+    },
+    {
+      "type": "APPEASED",
+      "start_node_id": "N1",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Incident Handling",
+        "episode_number": "SSeason 1E19"
+      }
+    },
+    {
+      "type": "CATCHED",
+      "start_node_id": "N0",
+      "end_node_id": "N81",
+      "properties": {
+        "context": "Rescue Mission",
+        "episode_number": "SSeason 1E19"
+      }
+    },
+    {
+      "type": "OWNED_BY",
       "start_node_id": "N2",
       "end_node_id": "N0",
       "properties": {
-        "episode_number": "S1E02"
+        "context": "Starter",
+        "episode_number": "SSeason 1E20"
       }
     },
     {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
-      "end_node_id": "N4",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E03"
-      }
-    },
-    {
-      "type": "STUDIED_UNDER",
-      "start_node_id": "N0",
-      "end_node_id": "N3",
-      "properties": {
-        "episode_number": "S1E03"
-      }
-    },
-    {
-      "type": "STUDIED_UNDER",
-      "start_node_id": "N5",
-      "end_node_id": "N3",
-      "properties": {
-        "episode_number": "S1E03"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
-      "end_node_id": "N4",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E03"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E04"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N4",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E04"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N5",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E04"
-      }
-    },
-    {
-      "type": "KNOWS",
+      "type": "OWNED_BY",
       "start_node_id": "N3",
       "end_node_id": "N0",
       "properties": {
-        "episode_number": "S1E04"
+        "context": "Starter",
+        "episode_number": "SSeason 1E20"
       }
     },
     {
-      "type": "FIGHTS",
-      "start_node_id": "N6",
-      "end_node_id": "N13",
-      "properties": {
-        "episode_number": "S1E04"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E05"
-      }
-    },
-    {
-      "type": "REUNITES",
-      "start_node_id": "N0",
-      "end_node_id": "N1",
-      "properties": {
-        "episode_number": "S1E05"
-      }
-    },
-    {
-      "type": "REUNITES",
-      "start_node_id": "N0",
-      "end_node_id": "N3",
-      "properties": {
-        "episode_number": "S1E05"
-      }
-    },
-    {
-      "type": "REUNITES",
-      "start_node_id": "N0",
-      "end_node_id": "N10",
-      "properties": {
-        "episode_number": "S1E05"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E06"
-      }
-    },
-    {
-      "type": "MEETS",
-      "start_node_id": "N0",
-      "end_node_id": "N1",
-      "properties": {
-        "episode_number": "S1E06"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E07"
-      }
-    },
-    {
-      "type": "CONFRONTED",
-      "start_node_id": "N0",
-      "end_node_id": "N13",
-      "properties": {
-        "episode_number": "S1E07"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "struggles",
-        "episode_number": "S1E08"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N13",
+      "type": "OWNED_BY",
+      "start_node_id": "N1",
       "end_node_id": "N0",
       "properties": {
-        "outcome": "vow",
-        "episode_number": "S1E08"
+        "context": "Starter",
+        "episode_number": "SSeason 1E20"
       }
     },
     {
-      "type": "FIGHTS",
-      "start_node_id": "N13",
-      "end_node_id": "N14",
+      "type": "MET_WITH",
+      "start_node_id": "N24",
+      "end_node_id": "N64",
       "properties": {
-        "outcome": "tasks",
-        "episode_number": "S1E08"
+        "context": "Ghost Encounter",
+        "episode_number": "SSeason 1E20"
       }
     },
     {
-      "type": "FIGHTS",
-      "start_node_id": "N13",
-      "end_node_id": "N15",
-      "properties": {
-        "outcome": "tasks",
-        "episode_number": "S1E08"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E09"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N1",
-      "end_node_id": "N14",
-      "properties": {
-        "outcome": "battle",
-        "episode_number": "S1E09"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N14",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "defeat",
-        "episode_number": "S1E09"
-      }
-    },
-    {
-      "type": "HELPS",
-      "start_node_id": "N14",
+      "type": "OWNED_BY",
+      "start_node_id": "N27",
       "end_node_id": "N0",
       "properties": {
-        "assistance": "arrow control",
-        "episode_number": "S1E09"
+        "context": "Starter",
+        "episode_number": "SSeason 1E21"
       }
     },
     {
-      "type": "FIGHTS",
+      "type": "RELEASED_BY",
       "start_node_id": "N0",
-      "end_node_id": "N13",
+      "end_node_id": "N27",
       "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E10"
+        "context": "Mating season",
+        "episode_number": "SSeason 1E21"
       }
     },
     {
-      "type": "FIGHTS",
-      "start_node_id": "N1",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "defeat",
-        "episode_number": "S1E10"
-      }
-    },
-    {
-      "type": "FIGHTS",
+      "type": "OWNED_BY",
       "start_node_id": "N0",
-      "end_node_id": "N6",
+      "end_node_id": "N21",
       "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E11"
+        "context": "Starter",
+        "episode_number": "SSeason 1E22"
       }
     },
     {
-      "type": "RELATED_TO",
-      "start_node_id": "N0",
-      "end_node_id": "N13",
-      "properties": {
-        "episode_number": "S1E11"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E12"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N6",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "defeat",
-        "episode_number": "S1E12"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N9",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E12"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N2",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "defeat",
-        "episode_number": "S1E12"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E13"
-      }
-    },
-    {
-      "type": "PROTECTS",
-      "start_node_id": "N6",
-      "end_node_id": "N1",
-      "properties": {
-        "episode_number": "S1E13"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E14"
-      }
-    },
-    {
-      "type": "FRIENDS_WITH",
-      "start_node_id": "N0",
-      "end_node_id": "N6",
-      "properties": {
-        "episode_number": "S1E14"
-      }
-    },
-    {
-      "type": "FRIENDS_WITH",
-      "start_node_id": "N0",
-      "end_node_id": "N7",
-      "properties": {
-        "episode_number": "S1E14"
-      }
-    },
-    {
-      "type": "FRIENDS_WITH",
-      "start_node_id": "N1",
-      "end_node_id": "N13",
-      "properties": {
-        "episode_number": "S1E14"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N4",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E15"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N6",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E15"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N7",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E15"
-      }
-    },
-    {
-      "type": "MEETS",
+      "type": "CHALLENGES",
       "start_node_id": "N0",
       "end_node_id": "N11",
       "properties": {
-        "episode_number": "S1E15"
+        "episode_number": "SSeason 1E22"
       }
     },
     {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E16"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N6",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E16"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N7",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E16"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N6",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E17"
-      }
-    },
-    {
-      "type": "ENCOUNTERS",
-      "start_node_id": "N0",
-      "end_node_id": "N1",
-      "properties": {
-        "episode_number": "S1E17"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "defeat",
-        "episode_number": "S1E18"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N4",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "defeat",
-        "episode_number": "S1E18"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N6",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "defeat",
-        "episode_number": "S1E18"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N7",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "defeat",
-        "episode_number": "S1E18"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N8",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "defeat",
-        "episode_number": "S1E18"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N9",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E18"
-      }
-    },
-    {
-      "type": "FIND",
-      "start_node_id": "N11",
-      "end_node_id": "N6",
-      "properties": {
-        "episode_number": "S1E18"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E19"
-      }
-    },
-    {
-      "type": "GIVES",
-      "start_node_id": "N5",
-      "end_node_id": "N6",
-      "properties": {
-        "item": "antidote",
-        "episode_number": "S1E19"
-      }
-    },
-    {
-      "type": "ASSISTS",
-      "start_node_id": "N11",
+      "type": "OWNED_BY",
+      "start_node_id": "N21",
       "end_node_id": "N0",
       "properties": {
-        "episode_number": "S1E19"
+        "context": "Starter",
+        "episode_number": "SSeason 1E23"
       }
     },
     {
-      "type": "FIGHTS",
-      "start_node_id": "N2",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E20"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "defeat",
-        "episode_number": "S1E20"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E21"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N13",
+      "type": "PRANKS",
+      "start_node_id": "N30",
       "end_node_id": "N0",
       "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E21"
+        "context": "Ghost prank on Ash and Pikachu",
+        "episode_number": "SSeason 1E23"
       }
     },
     {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
-      "end_node_id": "N13",
+      "type": "PRANKS",
+      "start_node_id": "N43",
+      "end_node_id": "N0",
       "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E22"
+        "context": "Ghost prank on Ash and Pikachu",
+        "episode_number": "SSeason 1E23"
       }
     },
     {
-      "type": "FIGHTS",
-      "start_node_id": "N2",
-      "end_node_id": "N13",
+      "type": "PRANKS",
+      "start_node_id": "N45",
+      "end_node_id": "N0",
       "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E22"
+        "context": "Ghost prank on Ash and Pikachu",
+        "episode_number": "SSeason 1E23"
       }
     },
     {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
-      "end_node_id": "N13",
+      "type": "OWNED_BY",
+      "start_node_id": "N43",
+      "end_node_id": "N0",
       "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E22"
+        "context": "Starter",
+        "episode_number": "SSeason 1E24"
       }
     },
     {
-      "type": "FIGHTS",
+      "type": "HAS_PARTNER",
       "start_node_id": "N12",
-      "end_node_id": "N13",
+      "end_node_id": "N19",
       "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E23"
+        "context": "Sabrina's father",
+        "episode_number": "SSeason 1E24"
       }
     },
     {
-      "type": "MEETS",
-      "start_node_id": "N0",
-      "end_node_id": "N8",
-      "properties": {
-        "episode_number": "S1E23"
-      }
-    },
-    {
-      "type": "MEETS",
-      "start_node_id": "N0",
-      "end_node_id": "N6",
-      "properties": {
-        "episode_number": "S1E23"
-      }
-    },
-    {
-      "type": "MEETS",
-      "start_node_id": "N0",
-      "end_node_id": "N7",
-      "properties": {
-        "episode_number": "S1E23"
-      }
-    },
-    {
-      "type": "MEETS",
-      "start_node_id": "N10",
-      "end_node_id": "N13",
-      "properties": {
-        "episode_number": "S1E23"
-      }
-    },
-    {
-      "type": "PARTICIPATES_IN",
-      "start_node_id": "N0",
-      "end_node_id": "N6",
-      "properties": {
-        "episode_number": "S1E24"
-      }
-    },
-    {
-      "type": "PARTICIPATES_IN",
-      "start_node_id": "N0",
-      "end_node_id": "N7",
-      "properties": {
-        "episode_number": "S1E24"
-      }
-    },
-    {
-      "type": "TRAINS",
-      "start_node_id": "N0",
-      "end_node_id": "N10",
-      "properties": {
-        "episode_number": "S1E24"
-      }
-    },
-    {
-      "type": "LEARNS",
-      "start_node_id": "N0",
-      "end_node_id": "N11",
-      "properties": {
-        "episode_number": "S1E24"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E25"
-      }
-    },
-    {
-      "type": "TRAINS_WITH",
-      "start_node_id": "N0",
-      "end_node_id": "N1",
-      "properties": {
-        "episode_number": "S1E25"
-      }
-    },
-    {
-      "type": "TRAINS_WITH",
-      "start_node_id": "N0",
-      "end_node_id": "N6",
-      "properties": {
-        "episode_number": "S1E25"
-      }
-    },
-    {
-      "type": "TRAINS_WITH",
-      "start_node_id": "N0",
-      "end_node_id": "N7",
-      "properties": {
-        "episode_number": "S1E25"
-      }
-    },
-    {
-      "type": "ENCOURAGES",
-      "start_node_id": "N11",
-      "end_node_id": "N8",
-      "properties": {
-        "episode_number": "S1E25"
-      }
-    },
-    {
-      "type": "KNOWS",
-      "start_node_id": "N0",
-      "end_node_id": "N9",
-      "properties": {
-        "episode_number": "S1E25"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S1E26"
-      }
-    },
-    {
-      "type": "WORKS_FOR",
-      "start_node_id": "N9",
+      "type": "OWNED_BY",
+      "start_node_id": "N21",
       "end_node_id": "N0",
       "properties": {
-        "episode_number": "S1E26"
+        "context": "Starter",
+        "episode_number": "SSeason 1E25"
       }
     },
     {
-      "type": "WORKS_FOR",
-      "start_node_id": "N9",
-      "end_node_id": "N1",
+      "type": "EVOLVES_INTO",
+      "start_node_id": "N36",
+      "end_node_id": "N47",
       "properties": {
-        "episode_number": "S1E26"
+        "context": "Mankey to Primeape",
+        "episode_number": "SSeason 1E25"
       }
     },
     {
-      "type": "WORKS_FOR",
-      "start_node_id": "N10",
+      "type": "OWNED_BY",
+      "start_node_id": "N21",
       "end_node_id": "N0",
       "properties": {
-        "episode_number": "S1E26"
+        "context": "Starter",
+        "episode_number": "SSeason 1E26"
       }
     },
     {
-      "type": "WORKS_FOR",
-      "start_node_id": "N10",
-      "end_node_id": "N1",
+      "type": "BATTLE_AGAINST",
+      "start_node_id": "N0",
+      "end_node_id": "N17",
       "properties": {
-        "episode_number": "S1E26"
+        "episode_number": "SSeason 1E26"
       }
     },
     {
-      "type": "FIGHTS",
-      "start_node_id": "N9",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E01"
-      }
-    },
-    {
-      "type": "ADVISES",
-      "start_node_id": "N9",
+      "type": "OWNED_BY",
+      "start_node_id": "N21",
       "end_node_id": "N0",
       "properties": {
-        "episode_number": "S2E01"
+        "context": "Starter",
+        "episode_number": "SSeason 1E27"
       }
     },
     {
-      "type": "MEETS",
-      "start_node_id": "N0",
-      "end_node_id": "N9",
+      "type": "OWNED_BY",
+      "start_node_id": "N34",
+      "end_node_id": "N1",
       "properties": {
-        "episode_number": "S2E02"
+        "episode_number": "SSeason 1E27"
       }
     },
     {
-      "type": "MEETS",
-      "start_node_id": "N1",
-      "end_node_id": "N9",
+      "type": "OWNED_BY",
+      "start_node_id": "N22",
+      "end_node_id": "N17",
       "properties": {
-        "episode_number": "S2E02"
+        "context": "Gifted",
+        "episode_number": "SSeason 1E28"
       }
     },
     {
-      "type": "MEETS",
-      "start_node_id": "N7",
-      "end_node_id": "N9",
+      "type": "OWNED_BY",
+      "start_node_id": "N47",
+      "end_node_id": "N0",
       "properties": {
-        "episode_number": "S2E02"
+        "context": "Tournament Entry",
+        "episode_number": "SSeason 1E29"
       }
     },
     {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "defeat",
-        "episode_number": "S2E02"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E03"
-      }
-    },
-    {
-      "type": "ACTS_IN",
-      "start_node_id": "N6",
-      "end_node_id": "N13",
-      "properties": {
-        "episode_number": "S2E03"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E04"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
+      "type": "OWNED_BY",
+      "start_node_id": "N21",
       "end_node_id": "N18",
       "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E04"
+        "context": "Father's Training",
+        "episode_number": "SSeason 1E29"
       }
     },
     {
-      "type": "FIGHTS",
-      "start_node_id": "N7",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "failure",
-        "episode_number": "S2E05"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "failure",
-        "episode_number": "S2E05"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N1",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "near",
-        "episode_number": "S2E05"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N6",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "intervention",
-        "episode_number": "S2E05"
-      }
-    },
-    {
-      "type": "PROTECTS",
-      "start_node_id": "N10",
+      "type": "OWNED_BY",
+      "start_node_id": "N21",
       "end_node_id": "N0",
       "properties": {
-        "protection_target": "passengers",
-        "episode_number": "S2E05"
+        "context": "Starter",
+        "episode_number": "SSeason 1E30"
       }
     },
     {
-      "type": "PROTECTS",
-      "start_node_id": "N10",
+      "type": "FIGHTS_WITH",
+      "start_node_id": "N30",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Cured illness",
+        "episode_number": "SSeason 1E30"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N30",
+      "end_node_id": "N5",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E31"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N31",
+      "end_node_id": "N5",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E31"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N29",
       "end_node_id": "N6",
       "properties": {
-        "protection_target": "passengers",
-        "episode_number": "S2E05"
+        "context": "Starter",
+        "episode_number": "SSeason 1E31"
       }
     },
     {
-      "type": "PROTECTS",
-      "start_node_id": "N10",
-      "end_node_id": "N1",
+      "type": "EVOLVED_FROM",
+      "start_node_id": "N29",
+      "end_node_id": "N51",
       "properties": {
-        "protection_target": "passengers",
-        "episode_number": "S2E05"
+        "context": "Lamenting lack of battle experience",
+        "episode_number": "SSeason 1E31"
       }
     },
     {
-      "type": "SEARCHES",
-      "start_node_id": "N7",
+      "type": "EVOLVED_FROM",
+      "start_node_id": "N32",
+      "end_node_id": "N57",
+      "properties": {
+        "context": "Lamenting lack of battle experience",
+        "episode_number": "SSeason 1E31"
+      }
+    },
+    {
+      "type": "BATTLES_AGAINST",
+      "start_node_id": "N0",
+      "end_node_id": "N17",
+      "properties": {
+        "context": "Fuchsia Gym",
+        "episode_number": "SSeason 1E32"
+      }
+    },
+    {
+      "type": "ENCONTERED_BY",
+      "start_node_id": "N0",
       "end_node_id": "N13",
       "properties": {
-        "episode_number": "S2E05"
+        "context": "Fuchsia Gym",
+        "episode_number": "SSeason 1E32"
       }
     },
     {
-      "type": "FIGHTS",
-      "start_node_id": "N9",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E06"
-      }
-    },
-    {
-      "type": "GUIDED",
-      "start_node_id": "N9",
+      "type": "OWNED_BY",
+      "start_node_id": "N52",
       "end_node_id": "N0",
       "properties": {
-        "episode_number": "S2E06"
+        "context": "Rider",
+        "episode_number": "SSeason 1E33"
       }
     },
     {
-      "type": "FIGHTS",
-      "start_node_id": "N10",
-      "end_node_id": "N13",
+      "type": "EVOLVES_INTO",
+      "start_node_id": "N52",
+      "end_node_id": "N53",
       "properties": {
-        "outcome": "mortally wounds",
-        "episode_number": "S2E07"
+        "episode_number": "SSeason 1E33"
       }
     },
     {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
-      "end_node_id": "N13",
+      "type": "WINS_THE_RACE",
+      "start_node_id": "N53",
+      "end_node_id": "N71",
       "properties": {
-        "outcome": "hurls his sword",
-        "episode_number": "S2E07"
+        "context": "Annual Pokémon Race",
+        "episode_number": "SSeason 1E33"
       }
     },
     {
-      "type": "COMMUNICATES",
-      "start_node_id": "N10",
+      "type": "OWNED_BY",
+      "start_node_id": "N86",
       "end_node_id": "N0",
       "properties": {
-        "message": "messages for both his brother and father",
-        "episode_number": "S2E07"
+        "context": "Protected Reserve",
+        "episode_number": "SSeason 1E34"
       }
     },
     {
-      "type": "COMMUNICATES",
-      "start_node_id": "N10",
+      "type": "OWNED_BY",
+      "start_node_id": "N86",
       "end_node_id": "N1",
       "properties": {
-        "message": "encourages Tanjiro to 'set his heart ablaze'",
-        "episode_number": "S2E07"
+        "context": "Protected Reserve",
+        "episode_number": "SSeason 1E34"
       }
     },
     {
-      "type": "APPRECIATES",
-      "start_node_id": "N10",
-      "end_node_id": "N10",
+      "type": "OWNED_BY",
+      "start_node_id": "N86",
+      "end_node_id": "N2",
       "properties": {
-        "episode_number": "S2E07"
+        "context": "Protected Reserve",
+        "episode_number": "SSeason 1E34"
       }
     },
     {
-      "type": "FIGHTS",
+      "type": "OWNED_BY",
+      "start_node_id": "N21",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E35"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N28",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Hunt",
+        "episode_number": "SSeason 1E35"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N24",
+      "end_node_id": "N16",
+      "properties": {
+        "context": "Challenge",
+        "episode_number": "SSeason 1E35"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N54",
+      "end_node_id": "N16",
+      "properties": {
+        "context": "Challenge",
+        "episode_number": "SSeason 1E35"
+      }
+    },
+    {
+      "type": "OWNED_BY",
       "start_node_id": "N0",
-      "end_node_id": "N9",
+      "end_node_id": "N16",
       "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E08"
+        "context": "Partnership",
+        "episode_number": "SSeason 1E36"
       }
     },
     {
-      "type": "MEETS_WITH",
-      "start_node_id": "N9",
-      "end_node_id": "N13",
+      "type": "OWNED_BY",
+      "start_node_id": "N57",
+      "end_node_id": "N0",
       "properties": {
-        "episode_number": "S2E08"
+        "context": "Character",
+        "episode_number": "SSeason 1E37"
       }
     },
     {
-      "type": "MEETS_WITH",
-      "start_node_id": "N0",
-      "end_node_id": "N9",
-      "properties": {
-        "episode_number": "S2E08"
-      }
-    },
-    {
-      "type": "MEETS_WITH",
-      "start_node_id": "N4",
-      "end_node_id": "N9",
-      "properties": {
-        "episode_number": "S2E08"
-      }
-    },
-    {
-      "type": "WORKS_FOR",
-      "start_node_id": "N0",
-      "end_node_id": "N13",
-      "properties": {
-        "episode_number": "S2E09"
-      }
-    },
-    {
-      "type": "WORKS_FOR",
-      "start_node_id": "N6",
-      "end_node_id": "N13",
-      "properties": {
-        "episode_number": "S2E09"
-      }
-    },
-    {
-      "type": "WORKS_FOR",
-      "start_node_id": "N7",
-      "end_node_id": "N13",
-      "properties": {
-        "episode_number": "S2E09"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N6",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "attack",
-        "episode_number": "S2E10"
-      }
-    },
-    {
-      "type": "DEFENDS",
-      "start_node_id": "N6",
-      "end_node_id": "N1",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E10"
-      }
-    },
-    {
-      "type": "FIGHTS",
+      "type": "OWNED_BY",
       "start_node_id": "N0",
       "end_node_id": "N13",
       "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E11"
+        "context": "Investigating the problem",
+        "episode_number": "SSeason 1E38"
       }
     },
     {
-      "type": "FIGHTS",
-      "start_node_id": "N6",
-      "end_node_id": "N13",
+      "type": "OWNED_BY",
+      "start_node_id": "N21",
+      "end_node_id": "N0",
       "properties": {
-        "outcome": "overwhelms",
-        "episode_number": "S2E11"
+        "context": "Starter",
+        "episode_number": "SSeason 1E39"
       }
     },
     {
-      "type": "FIGHTS",
+      "type": "OWNED_BY",
+      "start_node_id": "N68",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E40"
+      }
+    },
+    {
+      "type": "EVOLVES_TO",
+      "start_node_id": "N68",
+      "end_node_id": "N34",
+      "properties": {
+        "context": "Jolteon",
+        "episode_number": "SSeason 1E40"
+      }
+    },
+    {
+      "type": "EVOLVES_TO",
+      "start_node_id": "N68",
+      "end_node_id": "N29",
+      "properties": {
+        "context": "Vaporeon",
+        "episode_number": "SSeason 1E40"
+      }
+    },
+    {
+      "type": "EVOLVES_TO",
+      "start_node_id": "N68",
+      "end_node_id": "N30",
+      "properties": {
+        "context": "Flareon",
+        "episode_number": "SSeason 1E40"
+      }
+    },
+    {
+      "type": "OWNED_BY",
       "start_node_id": "N0",
-      "end_node_id": "N13",
+      "end_node_id": "N16",
       "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E12"
+        "context": "Ash Ketchum and his friends",
+        "episode_number": "SSeason 1E41"
       }
     },
     {
-      "type": "FIGHTS",
-      "start_node_id": "N6",
-      "end_node_id": "N13",
+      "type": "BLOCKS",
+      "start_node_id": "N39",
+      "end_node_id": "N2",
       "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E12"
+        "context": "Water path",
+        "episode_number": "SSeason 1E41"
       }
     },
     {
-      "type": "FIGHTS",
-      "start_node_id": "N7",
-      "end_node_id": "N13",
+      "type": "OWNED_BY",
+      "start_node_id": "N30",
+      "end_node_id": "N0",
       "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E12"
+        "context": "Rival Gym",
+        "episode_number": "SSeason 1E42"
       }
     },
     {
-      "type": "FIGHTS",
+      "type": "OWNED_BY",
+      "start_node_id": "N34",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E43"
+      }
+    },
+    {
+      "type": "EVOLVES_INTO",
+      "start_node_id": "N34",
+      "end_node_id": "N62",
+      "properties": {
+        "context": "Transformation during the event",
+        "episode_number": "SSeason 1E43"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N19",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Shop Owner",
+        "episode_number": "SSeason 1E44"
+      }
+    },
+    {
+      "type": "EVOLVES_FROM",
+      "start_node_id": "N33",
+      "end_node_id": "N70",
+      "properties": {
+        "context": "Battle with Paras",
+        "episode_number": "SSeason 1E44"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N0",
+      "end_node_id": "N23",
+      "properties": {
+        "episode_number": "SSeason 1E45"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N36",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Cylinder",
+        "episode_number": "SSeason 1E46"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N37",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Cylinder",
+        "episode_number": "SSeason 1E46"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N52",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Chaos",
+        "episode_number": "SSeason 1E46"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N53",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Chaos",
+        "episode_number": "SSeason 1E46"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N64",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Raging",
+        "episode_number": "SSeason 1E46"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N68",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Cylinder",
+        "episode_number": "SSeason 1E46"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N70",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Chaos",
+        "episode_number": "SSeason 1E46"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N21",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E47"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N0",
+      "end_node_id": "N32",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E48"
+      }
+    },
+    {
+      "type": "OWNED_BY",
       "start_node_id": "N1",
-      "end_node_id": "N13",
+      "end_node_id": "N6",
       "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E12"
+        "context": "Friend",
+        "episode_number": "SSeason 1E48"
       }
     },
     {
-      "type": "FIGHTS",
-      "start_node_id": "N4",
-      "end_node_id": "N13",
+      "type": "OWNED_BY",
+      "start_node_id": "N7",
+      "end_node_id": "N6",
       "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E12"
+        "context": "Friend",
+        "episode_number": "SSeason 1E48"
       }
     },
     {
-      "type": "FIGHTS",
-      "start_node_id": "N5",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E12"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N10",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E12"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E13"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N1",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "attack",
-        "episode_number": "S2E13"
-      }
-    },
-    {
-      "type": "INTERVENES",
+      "type": "OWNED_BY",
       "start_node_id": "N1",
       "end_node_id": "N0",
       "properties": {
-        "episode_number": "S2E13"
+        "context": "Stolen Poké Balls",
+        "episode_number": "SSeason 1E49"
       }
     },
     {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
+      "type": "OWNED_BY",
+      "start_node_id": "N65",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E50"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N65",
       "end_node_id": "N1",
       "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E14"
+        "context": "First Seen",
+        "episode_number": "SSeason 1E50"
       }
     },
     {
-      "type": "FIGHTS",
-      "start_node_id": "N2",
-      "end_node_id": "N13",
+      "type": "OWNED_BY",
+      "start_node_id": "N22",
+      "end_node_id": "N0",
       "properties": {
-        "outcome": "defeat",
-        "episode_number": "S2E14"
+        "context": "Starter",
+        "episode_number": "SSeason 1E51"
       }
     },
     {
-      "type": "FIGHTS",
+      "type": "EVOLVES_TO",
+      "start_node_id": "N22",
+      "end_node_id": "N34",
+      "properties": {
+        "episode_number": "SSeason 1E51"
+      }
+    },
+    {
+      "type": "EVOLVES_TO",
+      "start_node_id": "N34",
+      "end_node_id": "N71",
+      "properties": {
+        "episode_number": "SSeason 1E51"
+      }
+    },
+    {
+      "type": "ATTACKS",
+      "start_node_id": "N54",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Team Rocket",
+        "episode_number": "SSeason 1E51"
+      }
+    },
+    {
+      "type": "RESCUES",
+      "start_node_id": "N22",
+      "end_node_id": "N54",
+      "properties": {
+        "context": "Solar Beam",
+        "episode_number": "SSeason 1E51"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N24",
+      "end_node_id": "N1",
+      "properties": {
+        "context": "Final Battle",
+        "episode_number": "SSeason 1E52"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N22",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E53"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N22",
+      "end_node_id": "N1",
+      "properties": {
+        "context": "Team Rocket",
+        "episode_number": "SSeason 1E53"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N21",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E54"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N67",
+      "end_node_id": "N2",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E55"
+      }
+    },
+    {
+      "type": "JOINS_GROUP",
+      "start_node_id": "N80",
+      "end_node_id": "N0",
+      "properties": {
+        "episode_number": "SSeason 1E55"
+      }
+    },
+    {
+      "type": "OWNED_BY",
       "start_node_id": "N0",
-      "end_node_id": "N13",
+      "end_node_id": "N21",
       "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E15"
+        "context": "Starter",
+        "episode_number": "SSeason 1E56"
       }
     },
     {
-      "type": "FIGHTS",
-      "start_node_id": "N4",
-      "end_node_id": "N13",
+      "type": "OWNED_BY",
+      "start_node_id": "N32",
+      "end_node_id": "N1",
       "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E15"
+        "context": "Breeding Center",
+        "episode_number": "SSeason 1E57"
       }
     },
     {
-      "type": "FIGHTS",
-      "start_node_id": "N6",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E15"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N7",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E15"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N9",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E15"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
-      "end_node_id": "N10",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E15"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N2",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E15"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E16"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N0",
-      "end_node_id": "N9",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E16"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N6",
-      "end_node_id": "N8",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E16"
-      }
-    },
-    {
-      "type": "FIGHTS",
+      "type": "FRAMED_BY",
       "start_node_id": "N0",
       "end_node_id": "N4",
       "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E16"
+        "context": "Cassidy and Butch",
+        "episode_number": "SSeason 1E57"
       }
     },
     {
-      "type": "FIGHTS",
+      "type": "PARTICIPANT_IN",
       "start_node_id": "N0",
-      "end_node_id": "N13",
+      "end_node_id": "N5",
       "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E17"
+        "context": "Team Rocket",
+        "episode_number": "SSeason 1E57"
       }
     },
     {
-      "type": "FIGHTS",
-      "start_node_id": "N6",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E17"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N9",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E17"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N7",
-      "end_node_id": "N13",
-      "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E17"
-      }
-    },
-    {
-      "type": "FIGHTS",
-      "start_node_id": "N1",
+      "type": "OWNED_BY",
+      "start_node_id": "N35",
       "end_node_id": "N0",
       "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E18"
+        "context": "Starter",
+        "episode_number": "SSeason 1E58"
       }
     },
     {
-      "type": "FIGHTS",
-      "start_node_id": "N6",
-      "end_node_id": "N0",
+      "type": "OWNED_BY",
+      "start_node_id": "N24",
+      "end_node_id": "N17",
       "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E18"
+        "context": "Secret Weapon",
+        "episode_number": "SSeason 1E58"
       }
     },
     {
-      "type": "FIGHTS",
-      "start_node_id": "N7",
+      "type": "OWNED_BY",
+      "start_node_id": "N21",
       "end_node_id": "N0",
       "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E18"
+        "context": "Starter",
+        "episode_number": "SSeason 1E59"
       }
     },
     {
-      "type": "FIGHTS",
-      "start_node_id": "N13",
+      "type": "BATTLE_AGAINST",
+      "start_node_id": "N33",
+      "end_node_id": "N62",
+      "properties": {
+        "result": "win",
+        "reason": "Seismic Toss",
+        "episode_number": "SSeason 1E59"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N21",
       "end_node_id": "N0",
       "properties": {
-        "outcome": "victory",
-        "episode_number": "S2E18"
+        "context": "Helping",
+        "episode_number": "SSeason 1E60"
+      }
+    },
+    {
+      "type": "PART_OF",
+      "start_node_id": "N63",
+      "end_node_id": "N22",
+      "properties": {
+        "context": "Stuck in Blaster",
+        "episode_number": "SSeason 1E60"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N36",
+      "end_node_id": "N1",
+      "properties": {
+        "context": "Episode",
+        "episode_number": "SSeason 1E61"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N71",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Steal",
+        "episode_number": "SSeason 1E62"
+      }
+    },
+    {
+      "type": "INVESTIGATE_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N3",
+      "properties": {
+        "episode_number": "SSeason 1E62"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N65",
+      "end_node_id": "N14",
+      "properties": {
+        "context": "Kidnapped by Team Rocket",
+        "episode_number": "SSeason 1E63"
+      }
+    },
+    {
+      "type": "WINS_BATTLE",
+      "start_node_id": "N0",
+      "end_node_id": "N2",
+      "properties": {
+        "context": "Challenge against Gary",
+        "episode_number": "SSeason 1E63"
+      }
+    },
+    {
+      "type": "WINS_BATTLE",
+      "start_node_id": "N0",
+      "end_node_id": "N14",
+      "properties": {
+        "context": "Challenge against Team Rocket",
+        "episode_number": "SSeason 1E63"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N0",
+      "end_node_id": "N16",
+      "properties": {
+        "context": "Dress Up",
+        "episode_number": "SSeason 1E64"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N68",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Helper",
+        "episode_number": "SSeason 1E65"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N39",
+      "end_node_id": "N2",
+      "properties": {
+        "context": "Suggestion",
+        "episode_number": "SSeason 1E66"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N21",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Saved",
+        "episode_number": "SSeason 1E66"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N0",
+      "end_node_id": "N3",
+      "properties": {
+        "context": "Professor telling them about Pokémon",
+        "episode_number": "SSeason 1E67"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N4",
+      "end_node_id": "N3",
+      "properties": {
+        "context": "Professor telling them about Pokémon",
+        "episode_number": "SSeason 1E67"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N0",
+      "end_node_id": "N71",
+      "properties": {
+        "context": "Professor Oak's Experiment",
+        "episode_number": "SSeason 1E68"
+      }
+    },
+    {
+      "type": "CATCHES",
+      "start_node_id": "N5",
+      "end_node_id": "N72",
+      "properties": {
+        "context": "Jessie's Action",
+        "episode_number": "SSeason 1E68"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N21",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E69"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N32",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E70"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N21",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E71"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N34",
+      "end_node_id": "N1",
+      "properties": {
+        "context": "Competitor",
+        "episode_number": "SSeason 1E71"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N21",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E72"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N22",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E72"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N0",
+      "end_node_id": "N17",
+      "properties": {
+        "context": "Trainer",
+        "episode_number": "SSeason 1E73"
+      }
+    },
+    {
+      "type": "ATTACKED_BY",
+      "start_node_id": "N38",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Rampage",
+        "episode_number": "SSeason 1E73"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N65",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Trap",
+        "episode_number": "SSeason 1E74"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N60",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E75"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N21",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Legendary Pokémon",
+        "episode_number": "SSeason 1E76"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N21",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E77"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N33",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Last Pokémon",
+        "episode_number": "SSeason 1E78"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N27",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E78"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N40",
+      "end_node_id": "N59",
+      "properties": {
+        "context": "Last Pokémon",
+        "episode_number": "SSeason 1E78"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N4",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Previous Match",
+        "episode_number": "SSeason 1E79"
+      }
+    },
+    {
+      "type": "FIGHTS_AGAINST",
+      "start_node_id": "N0",
+      "end_node_id": "N15",
+      "properties": {
+        "context": "4th Round",
+        "episode_number": "SSeason 1E79"
+      }
+    },
+    {
+      "type": "USES_POKEMON",
+      "start_node_id": "N15",
+      "end_node_id": "N68",
+      "properties": {
+        "context": "Beedrill",
+        "episode_number": "SSeason 1E79"
+      }
+    },
+    {
+      "type": "USES_POKEMON",
+      "start_node_id": "N15",
+      "end_node_id": "N70",
+      "properties": {
+        "context": "Scyther",
+        "episode_number": "SSeason 1E79"
+      }
+    },
+    {
+      "type": "USES_POKEMON",
+      "start_node_id": "N15",
+      "end_node_id": "N32",
+      "properties": {
+        "context": "Bellsprout",
+        "episode_number": "SSeason 1E79"
+      }
+    },
+    {
+      "type": "FIGHTS_AGAINST",
+      "start_node_id": "N0",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "5th Round",
+        "episode_number": "SSeason 1E79"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N21",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E80"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N21",
+      "end_node_id": "N18",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E80"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N21",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E81"
+      }
+    },
+    {
+      "type": "BATTLED",
+      "start_node_id": "N0",
+      "end_node_id": "N17",
+      "properties": {
+        "result": "lost",
+        "move_used": "Charizard",
+        "episode_number": "SSeason 1E81"
+      }
+    },
+    {
+      "type": "OWNED_BY",
+      "start_node_id": "N23",
+      "end_node_id": "N0",
+      "properties": {
+        "context": "Starter",
+        "episode_number": "SSeason 1E82"
       }
     }
   ]
