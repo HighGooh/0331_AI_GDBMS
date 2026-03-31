@@ -299,14 +299,15 @@ def process_data(episodes: List[dict]) -> GraphResponse:
 # 위키피디아 에피소드 데이터 수집
 # ------------------------------------------------------
 def fetch_episode(link: str) -> List[dict]:
-  season = int(re.search(r"season_(\d+)", link).group(1))  # 시즌 번호 추출
-  print(f"Fetching Season {season} from: {link}")
   headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}  # 요청 헤더
   response = get(link, headers=headers)  # GET 요청
-  
   soup = bs(response.text, "html.parser")  # HTML 파싱
+  season = soup.select_one("td.infobox-subheader").get_text(strip=True)
+  print(season)
+  # season = int(re.search(r"season_(\d+)", link).group(1))  # 시즌 번호 추출
+  print(f"Fetching Season {season} from: {link}")
+  
   table = soup.select_one("table.wikitable.plainrowheaders.wikiepisodetable")  # 에피소드 테이블 찾기
-
   episodes = []
   rows = table.select("tr.vevent.module-episode-list-row")  # 각 에피소드 row
 
@@ -348,8 +349,7 @@ def save_output(episodes: List[dict], final_graph: GraphResponse):
 def main():
   try:
     episode_links = [
-      "https://en.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba_season_1",
-      "https://en.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba_season_2",
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Indigo_League"
 
     ]
     all_episodes = []
