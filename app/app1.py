@@ -48,7 +48,7 @@ class Neo4jCreateWriter(KGWriter):
           session.run(
             f"""
             MATCH (a {{id: $start_id}}), (b {{id: $end_id}})  
-            CREATE (a)-[r:{rel.type} $props]->(b)  
+            CREATE (a)-[r:`{rel.type}` $props]->(b)  
             """, # 시작, 끝 노드 찾기 # 관계 생성
             {
               "start_id": rel.start_node_id,  # 관계 시작 노드 ID

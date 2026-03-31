@@ -32,26 +32,52 @@ class GraphResponse(BaseModel):
 # LLM에 전달되는 템플릿: 노드와 관계 추출 규칙
 # ----------------------------------------
 UPDATED_TEMPLATE = """
-You are a top-tier algorithm designed for extracting information in structured formats to build a knowledge graph. Extract the entities (nodes) and specify their type from the following text, but **you MUST select nodes ONLY from the following predefined set** (see the provided NODES list below). Do not create any new nodes or use names that do not exactly match one in the NODES list.
+### Role
+You are a high-precision Knowledge Graph engineer specialized in structured JSON output.
 
-Also extract the relationships between these nodes. Return the result as JSON using the following format:
+### Extraction Task
+Extract entities and relationships from the provided synopsis.
+- Use ONLY the provided `NODES` list for IDs.
+- If a character/Pokémon is not in the `NODES` list, SKIP it entirely.
+
+### 🚨 STRICT OUTPUT FORMAT (MANDATORY)
+Return a SINGLE JSON object with this exact structure. Do NOT include markdown code blocks or any text outside the JSON.
 
 {
   "nodes": [
-    {"id": "N0", "label": "인간", "properties": {"name": "Ash Ketchum"}}
+    {
+      "id": "N0",
+      "label": "인간",
+      "properties": {"name": "Ash Ketchum"}
+    }
   ],
   "relationships": [
-    {"type": "FIGHTS", "start_node_id": "N0", "end_node_id": "N13", "properties": {"outcome": "victory"}}
+    {
+      "type": "TRAVELS_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "S02E01",
+        "context": "Brief reason for this relationship in this episode"
+      }
+    }
   ]
 }
 
-Additional rules:
-- Use only nodes from the NODES list. Do not invent or substitute nodes.
-- Skip any relationship if one of its entities is not in NODES.
-- Only output valid relationships where both endpoints exist in NODES and the direction matches their types.
+### 🚨 NODE & ID RULES
+1. **NO NEW IDs:** Do not create IDs like "N101" or "Temp1". If not in the list, ignore the entity.
+2. **ID LOOKUP:** - Ash Ketchum/지우 -> N0
+   - Misty/이슬 -> N1
+   - Pikachu/피카츄 -> N21
+   - (Check the provided NODES list carefully before assigning an ID).
+3. **NO DUPLICATES:** Include a node or relationship only once per response.
 
-NODES =
-[
+### 🚨 RELATIONSHIP RULES
+1. **REQUIRED FIELD:** Every relationship object MUST contain the "type" key.
+2. **TYPE LIST:** Use ONLY these types: [OWNS, CAUGHT, TRAVELS_WITH, WORKS_FOR, EVOLVES_FROM, BATTLES, MEETS].
+3. **TEAM ROCKET LOGIC:** Map "Team Rocket" to Jessie (N5), James (N6), and Meowth (N22). Link all three to Giovanni (N14) via `WORKS_FOR`.
+
+NODES = [
   {"id": "N0", "label": "인간", "properties": {"name": "Ash Ketchum"}},
   {"id": "N1", "label": "인간", "properties": {"name": "Misty"}},
   {"id": "N2", "label": "인간", "properties": {"name": "Brock"}},
@@ -121,7 +147,57 @@ NODES =
   {"id": "N66", "label": "포켓몬", "properties": {"name": "Mewtwo"}},
   {"id": "N67", "label": "포켓몬", "properties": {"name": "Mr. Mime"}},
   {"id": "N68", "label": "포켓몬", "properties": {"name": "Lapras"}},
-  {"id": "N69", "label": "포켓몬", "properties": {"name": "Sparky"}}
+  {"id": "N69", "label": "포켓몬", "properties": {"name": "Sparky"}},
+  {"id": "N70", "label": "포켓몬", "properties": {"name": "Beedrill"}},
+  {"id": "N71", "label": "포켓몬", "properties": {"name": "Krabby"}},
+  {"id": "N72", "label": "포켓몬", "properties": {"name": "Kingler"}},
+  {"id": "N73", "label": "인간", "properties": {"name": "Kaoruko"}},
+  {"id": "N74", "label": "포켓몬", "properties": {"name": "Golem"}},
+  {"id": "N75", "label": "인간", "properties": {"name": "Melissa"}},
+  {"id": "N76", "label": "인간", "properties": {"name": "Mandi"}},
+  {"id": "N77", "label": "인간", "properties": {"name": "Ritchie"}},
+  {"id": "N78", "label": "포켓몬", "properties": {"name": "Nidoking"}},
+  {"id": "N79", "label": "포켓몬", "properties": {"name": "Bellsprout"}},
+  {"id": "N80", "label": "포켓몬", "properties": {"name": "Charizard"}},
+  {"id": "N81", "label": "포켓몬", "properties": {"name": "Shellder"}},
+  {"id": "N82", "label": "포켓몬", "properties": {"name": "Psyduck"}},
+  {"id": "N83", "label": "포켓몬", "properties": {"name": "Parasect"}},
+  {"id": "N84", "label": "포켓몬", "properties": {"name": "Blastoise"}},
+  {"id": "N85", "label": "포켓몬", "properties": {"name": "Slowbro"}},
+  {"id": "N86", "label": "인간", "properties": {"name": "Cassandra"}},
+  {"id": "N87", "label": "포켓몬", "properties": {"name": "Paras"}},
+  {"id": "N88", "label": "포켓몬", "properties": {"name": "Slowpoke"}},
+  {"id": "N89", "label": "포켓몬", "properties": {"name": "Wartortle"}},
+  {"id": "N90", "label": "인간", "properties": {"name": "Professor Westwood V"}},
+  {"id": "N91", "label": "포켓몬", "properties": {"name": "Arcanine"}},
+  {"id": "N92", "label": "포켓몬", "properties": {"name": "Ivysaur"}},
+  {"id": "N93", "label": "포켓몬", "properties": {"name": "Ninetales"}},
+  {"id": "N94", "label": "포켓몬", "properties": {"name": "Moltres"}},
+  {"id": "N95", "label": "포켓몬", "properties": {"name": "Danny"}},
+  {"id": "N96", "label": "인간", "properties": {"name": "Seymour"}},
+  {"id": "N97", "label": "포켓몬", "properties": {"name": "Alakazam"}},
+  {"id": "N98", "label": "인간", "properties": {"name": "Tommy's Parents"}},
+  {"id": "N99", "label": "포켓몬", "properties": {"name": "Weezing"}},
+  {"id": "N100", "label": "포켓몬", "properties": {"name": "Cloyster"}},
+  {"id": "N101", "label": "인간", "properties": {"name": "Duplica"}},
+  {"id": "N102", "label": "포켓몬", "properties": {"name": "Ditto"}},
+  {"id": "N103", "label": "인간", "properties": {"name": "Damian"}}, # 파이리 버린 트레이너
+  {"id": "N104", "label": "인간", "properties": {"name": "Aya"}},    # 독수 여동생
+  {"id": "N105", "label": "인간", "properties": {"name": "Jeanette Fisher"}}, # 4차전 라이벌
+  {"id": "N106", "label": "포켓몬", "properties": {"name": "Victreebel"}},
+  {"id": "N107", "label": "인간", "properties": {"name": "Butch"}},   # 로켓단 코산
+  {"id": "N108", "label": "인간", "properties": {"name": "Cassidy"}}, # 로켓단 코사
+  {"id": "N109", "label": "인간", "properties": {"name": "Tracey Sketchit"}}, # 관철 (웅이 대신 합류)
+  {"id": "N110", "label": "포켓몬", "properties": {"name": "Marill"}},      # 관철의 포켓몬
+  {"id": "N111", "label": "포켓몬", "properties": {"name": "Venonat"}},     # 관철의 포켓몬
+  {"id": "N112", "label": "인간", "properties": {"name": "Cissy"}},        # 강미 (첫 번째 관장)
+  {"id": "N113", "label": "인간", "properties": {"name": "Rudy"}},         # 지코 (세 번째 관장)
+  {"id": "N114", "label": "인간", "properties": {"name": "Luana"}},        # 루리 (네 번째 관장)
+  {"id": "N115", "label": "인간", "properties": {"name": "Drake"}},        # 강산 (헤드 트레이너)
+  {"id": "N116", "label": "포켓몬", "properties": {"name": "Crystal Onix"}}, # 수정 롱스톤
+  {"id": "N117", "label": "포켓몬", "properties": {"name": "Politeod"}},
+  {"id": "N118", "label": "포켓몬", "properties": {"name": "Poliwag"}},     # 이슬의 발챙이
+  {"id": "N119", "label": "포켓몬", "properties": {"name": "Scyther"}}      # 관철의 스라크
 ]
 """
 
@@ -196,13 +272,63 @@ KOREAN_NODE_MAP = {
     "Richie": "훈이",
     "Sparky": "레온",
     "Charles Goodshow": "리그 의장",
-    "Professor Ivy": "미지박사"
+    "Professor Ivy": "미지박사",
+    "Beedrill": "독침봉",
+    "Krabby": "크랩",
+    "Kingler": "킹크랩",
+    "Kaoruko": "카오루코",
+    "Golem": "딱구리",
+    "Melissa": "멜리사",
+    "Mandi": "재영",
+    "Ritchie": "훈이",
+    "Nidoking": "니드킹",
+    "Bellsprout": "모다피",
+    "Charizard": "리자몽",
+    "Shellder": "셀러",
+    "Psyduck": "고라파덕",
+    "Parasect": "파라섹트",
+    "Blastoise": "거북왕",
+    "Slowbro": "야도란",
+    "Cassandra": "링링",
+    "Paras": "파라스",
+    "Slowpoke": "야돈",
+    "Wartortle": "어니부기",
+    "Professor Westwood V": "포만물 박사",
+    "Arcanine": "윈디",
+    "Ivysaur": "이상해풀",
+    "Ninetales": "나인테일",
+    "Moltres" : "파이어",
+    "Danny": "호남",
+    "Seymour": "나해박",
+    "Alakazam" : "후딘",
+    "Tommy's Parents" : "다잔의 부모",
+    "Weezing": "또도가스",
+    "Cloyster": "파르셀",
+    "Duplica": "희나",
+    "Damian": "다솜",
+    "Aya": "아야",
+    "Jeanette Fisher": "훈희",
+    "Butch": "코산",
+    "Cassidy": "코사",
+    "Tracey Sketchit": "관철",
+    "Cissy": "강미",
+    "Rudy": "지코",
+    "Luana": "루리",
+    "Drake": "강산",
+    "Ditto": "메타몽",
+    "Victreebel": "우츠보트",
+    "Marill": "마릴",
+    "Venonat": "콘팡",
+    "Crystal Onix": "크리스탈 롱스톤",
+    "Politeod": "왕구리",
+    "Poliwag": "발챙이",
+    "Scyther": "스라크"
 }
 
 # ---------------------------
 # Ollama LLM 호출 함수
 # ---------------------------
-def llm_call_structured(prompt: str, model: str = "gemma3:4b") -> GraphResponse:
+def llm_call_structured(prompt: str, model: str = "Llama3.1:8B") -> GraphResponse:
 
   final_prompt = prompt + """
   Return ONLY valid JSON. Do NOT include explanations or commentary.
@@ -323,6 +449,9 @@ def fetch_episode(link: str) -> List[dict]:
       "episode_in_season": i,
       "synopsis": synopsis,
     })
+
+    # if i == 10:
+    #   break
   
   return episodes
 
@@ -349,8 +478,8 @@ def save_output(episodes: List[dict], final_graph: GraphResponse):
 def main():
   try:
     episode_links = [
-      "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Indigo_League"
-
+      # "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Indigo_League",
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Adventures_in_the_Orange_Islands"
     ]
     all_episodes = []
     for link in episode_links:
